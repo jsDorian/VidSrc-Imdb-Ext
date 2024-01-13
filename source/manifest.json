@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "VidSrc IMDB Extension",
+  "description": "Allows you to stream media matching IMDB title ID at vidsrc.to. Subject to availability of title on VidSrc. If title is unavailable you'll get a 400 error.",
+  "version": "1.0.0",
+
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.imdb.com/title/*"
+      ],
+      "exclude_matches": [
+        
+      ],
+      "js": [
+        "contentScript.js"
+      ],
+      "css": [
+        "stylesheet.css"
+      ],
+      "all_frames": true,
+      "run_at": "document_start"
+    }
+  ],
+
+  "incognito": "spanning"
+}

@@ -1,0 +1,24 @@
+#vs-stream {
+	font-size: xx-large;
+	position: fixed;
+	top: 10%;
+	background: red;
+	z-index: 1000;
+	right: 2%;
+	color: white;
+	font-family: fantasy;
+	border: solid rgb(255 251 185) 5px;
+	box-shadow: 5px 5px red, 4px 4px red, 3px 3px red, 2px 2px red, 1px 1px red;
+	padding: 1px;
+}
+
+/*#vs-stream:hover {
+	border: solid white 5px;
+}*/
+
+#vs-stream:active {
+	border: solid white 5px;
+	box-shadow: none;
+	right: calc(2% - 5px);
+	top: calc(10% + 5px);
+}
