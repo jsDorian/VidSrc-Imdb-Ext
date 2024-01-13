@@ -4,8 +4,8 @@ Extension enabling users to stream media matching IMDB title ID at vidsrc.to
 Simply click on this button located at the top right of the imdb page.
 ![icon.png](https://github.com/jsDorian/VidSrc-Imdb-Ext/blob/main/source/icon.png)
 
-Installation:
-Load an unpacked extension
+## Installation: ##
+### Load an unpacked extension ###
 To load an unpacked extension in developer mode:
 
 1. Go to the Extensions page by entering chrome://extensions in a new tab.
