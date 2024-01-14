@@ -1,5 +1,5 @@
 # VidSrc Imdb Ext
-Extension enabling users to stream media matching IMDB title ID at https://www.vidsrc.to
+Extension enabling users to stream media matching IMDB title ID at [vidsrc.to](https://www.vidsrc.to)
 
 Simply click on this button located at the top right of the imdb page.
 
