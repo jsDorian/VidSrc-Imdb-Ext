@@ -4,6 +4,13 @@
   "description": "Allows you to stream media matching IMDB title ID at vidsrc.to. Subject to availability of title on VidSrc. If title is unavailable you'll get a 400 error.",
   "version": "1.0.0",
 
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+
   "content_scripts": [
     {
       "matches": [
